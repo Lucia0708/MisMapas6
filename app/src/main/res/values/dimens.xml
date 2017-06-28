@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tam_titulo">30sp</dimen>
+    <dimen name="pad_left">30sp</dimen>
+    <dimen name="pad_right">30sp</dimen>
+    <dimen name="pad_top">80sp</dimen>
+    <dimen name="foto_ancho">180sp</dimen>
+    <dimen name="foto_alto">100sp</dimen>
+</resources>

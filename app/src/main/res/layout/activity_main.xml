@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lucia.mismapas6.MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvTexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/miciudad"
+        android:textSize="@dimen/tam_titulo"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/ivfoto1"
+        android:layout_width="@dimen/foto_ancho"
+        android:layout_height="@dimen/foto_alto"
+        android:layout_below="@+id/tvTexto"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="@dimen/pad_left"
+        android:background="@drawable/centro"
+
+        android:layout_marginTop="@dimen/pad_top"
+
+        />
+
+    <ImageView
+        android:id="@+id/ivfoto2"
+        android:layout_width="@dimen/foto_ancho"
+        android:layout_height="@dimen/foto_alto"
+        android:layout_below="@+id/tvTexto"
+        android:layout_alignParentRight="true"
+        android:paddingRight="@dimen/pad_right"
+        android:background="@drawable/jardin_san_marcos"
+
+        android:layout_marginTop="@dimen/pad_top"/>
+
+    <ImageView
+        android:id="@+id/ivfoto3"
+        android:layout_width="@dimen/foto_ancho"
+        android:layout_height="@dimen/foto_alto"
+        android:layout_below ="@+id/ivfoto1"
+        android:layout_marginTop="@dimen/pad_top"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="@dimen/pad_left"
+        android:background="@drawable/plaza_principal"
+        />
+
+    <ImageView
+        android:id="@+id/ivfoto4"
+        android:layout_width="@dimen/foto_ancho"
+        android:layout_height="@dimen/foto_alto"
+        android:layout_below ="@+id/ivfoto2"
+        android:layout_marginTop="@dimen/pad_top"
+        android:layout_alignParentRight="true"
+        android:paddingRight="@dimen/pad_right"
+        android:background="@drawable/calvillo"
+        />
+
+</RelativeLayout>
+
